@@ -2,9 +2,10 @@
 This repository contains the HAS testbed for Multi-Codec Optimization Model
 ## MCOM (Live) - Testbed
 ### Dependencies:
-- Please install Mininet module for python3
-- Please install itu-t-p1203
-- Please install itu-t-p1203-extended-version
+- Please install Python
+- Please install Mininet module for Python
+- Please install [itu-t-p1203](https://github.com/itu-p1203/itu-p1203) module
+- Please install [itu-t-p1203-codec-extension](https://github.com/Telecommunication-Telemedia-Assessment/itu-p1203-codecextension) module
 ### How to use:
 - Clone this repository
 - Configure mininet-conf.py
