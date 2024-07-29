@@ -26,26 +26,26 @@ If you use this source code in your research, please cite
 
 ```
 @InProceedings{mcom,
-author={Lorenzi, Daniele
-and Tashtarian, Farzad
-and Amirpour, Hadi
-and Timmerer, Christian
-and Hellwagner, Hermann},
-editor={Dang-Nguyen, Duc-Tien
-and Gurrin, Cathal
-and Larson, Martha
-and Smeaton, Alan F.
-and Rudinac, Stevan
-and Dao, Minh-Son
-and Trattner, Christoph
-and Chen, Phoebe},
-title={{MCOM-Live: A Multi-Codec Optimization Model at the Edge for Live Streaming}},
-booktitle={MultiMedia Modeling},
-year={2023},
-publisher={Springer Nature Switzerland},
-address={Cham},
-pages={252--264},
-abstract={HTTP Adaptive Streaming (HAS) is the predominant technique to deliver video contents across the Internet with the increasing demand of its applications. With the evolution of videos to deliver more immersive experiences, such as their evolution in resolution and framerate, highly efficient video compression schemes are required to ease the burden on the delivery process. While AVC/H.264 still represents the most adopted codec, we are experiencing an increase in the usage of new generation codecs (HEVC/H.265, VP9, AV1, VVC/H.266, etc.). Compared to AVC/H.264, these codecs can either achieve the same quality besides a bitrate reduction or improve the quality while targeting the same bitrate. In this paper, we propose a Mixed-Binary Linear Programming (MBLP) model called Multi-Codec Optimization Model at the edge for Live streaming (MCOM-Live) to jointly optimize (i) the overall streaming costs, and (ii) the visual quality of the content played out by the end-users by efficiently enabling multi-codec content delivery. Given a video content encoded with multiple codecs according to a fixed bitrate ladder, the model will choose among three available policies, i.e., fetch, transcode, or skip, the best option to handle the representations. We compare the proposed model with traditional approaches used in the industry. The experimental results show that our proposed method can reduce the additional latency by up to 23{\%} and the streaming costs by up to 78{\%}, besides improving the visual quality of the delivered segments by up to 0.5 dB, in terms of PSNR.},
-isbn={978-3-031-27818-1}
+  author={Lorenzi, Daniele
+  and Tashtarian, Farzad
+  and Amirpour, Hadi
+  and Timmerer, Christian
+  and Hellwagner, Hermann},
+  editor={Dang-Nguyen, Duc-Tien
+  and Gurrin, Cathal
+  and Larson, Martha
+  and Smeaton, Alan F.
+  and Rudinac, Stevan
+  and Dao, Minh-Son
+  and Trattner, Christoph
+  and Chen, Phoebe},
+  title={{MCOM-Live: A Multi-Codec Optimization Model at the Edge for Live Streaming}},
+  booktitle={MultiMedia Modeling},
+  year={2023},
+  publisher={Springer Nature Switzerland},
+  address={Cham},
+  pages={252--264},
+  abstract={HTTP Adaptive Streaming (HAS) is the predominant technique to deliver video contents across the Internet with the increasing demand of its applications. With the evolution of videos to deliver more immersive experiences, such as their evolution in resolution and framerate, highly efficient video compression schemes are required to ease the burden on the delivery process. While AVC/H.264 still represents the most adopted codec, we are experiencing an increase in the usage of new generation codecs (HEVC/H.265, VP9, AV1, VVC/H.266, etc.). Compared to AVC/H.264, these codecs can either achieve the same quality besides a bitrate reduction or improve the quality while targeting the same bitrate. In this paper, we propose a Mixed-Binary Linear Programming (MBLP) model called Multi-Codec Optimization Model at the edge for Live streaming (MCOM-Live) to jointly optimize (i) the overall streaming costs, and (ii) the visual quality of the content played out by the end-users by efficiently enabling multi-codec content delivery. Given a video content encoded with multiple codecs according to a fixed bitrate ladder, the model will choose among three available policies, i.e., fetch, transcode, or skip, the best option to handle the representations. We compare the proposed model with traditional approaches used in the industry. The experimental results show that our proposed method can reduce the additional latency by up to 23{\%} and the streaming costs by up to 78{\%}, besides improving the visual quality of the delivered segments by up to 0.5 dB, in terms of PSNR.},
+  isbn={978-3-031-27818-1}
 }
 ```
